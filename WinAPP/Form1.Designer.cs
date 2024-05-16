@@ -44,6 +44,7 @@
             button1.TabIndex = 0;
             button1.Text = "Transfer >>";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -53,6 +54,7 @@
             button2.TabIndex = 1;
             button2.Text = "<< Transfer ";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // textBox1
             // 
@@ -69,6 +71,7 @@
             textBox2.Size = new Size(185, 27);
             textBox2.TabIndex = 3;
             textBox2.Text = "Test1";
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // button3
             // 
@@ -78,6 +81,7 @@
             button3.TabIndex = 4;
             button3.Text = "Exchange";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -87,6 +91,7 @@
             button4.TabIndex = 5;
             button4.Text = "Clear Both";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // Form1
             // 
