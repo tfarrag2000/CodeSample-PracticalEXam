@@ -25,7 +25,7 @@ namespace WinAPP
             textBox2.Text += textBox1.Text;
             textBox1.Text = string.Empty;
         }
-
+         
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text += textBox2.Text;
